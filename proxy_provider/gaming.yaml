@@ -1,0 +1,9 @@
+proxies:
+  - name: "GAME"
+    type: trojan
+    server: id-game.serverip.xyz # or 1.2.3.4
+    port: 443
+    password: bcc4e0f0-6e42-11ec-b318-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true

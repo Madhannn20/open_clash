@@ -1,0 +1,33 @@
+proxies:
+  - name: "CONTABO 2"
+    type: trojan
+    server: trojan-contabo2.bypass.id # or 1.2.3.4
+    port: 443
+    password: a75751a0-6f06-11ec-8818-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "ATHAMEDIA"
+    type: trojan
+    server: id-atha.bypass.id # or 1.2.3.4
+    port: 443
+    password: ddbc5540-6f08-11ec-bbc4-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "RACKH"
+    type: trojan
+    server: indo-2.serverip.xyz # or 1.2.3.4
+    port: 443
+    password: 0dbf8c80-6f09-11ec-8f2d-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "NUSA JKT"
+    type: trojan
+    server: id-nusa-jkt.bypass.id # or 1.2.3.4
+    port: 443
+    password: 0208e350-6f09-11ec-81aa-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true

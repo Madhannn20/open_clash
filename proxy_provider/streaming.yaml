@@ -1,0 +1,41 @@
+proxies:
+  - name: "SGGS"
+    type: trojan
+    server: sggs.bypass.id # atau 1.2.3.4
+    port: 443
+    password: a1b38e20-6f05-11ec-91cd-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com # bug atau server-host
+    skip-cert-verify: true
+  - name: "CTN"
+    type: trojan
+    server: id-ctn.bypass.id # or 1.2.3.4
+    port: 443
+    password: 91f52d10-6f05-11ec-858f-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "HE 1"
+    type: trojan
+    server: sg-trojan-ss.serverip.xyz # or 1.2.3.4
+    port: 443
+    password: 3f039f00-6f05-11ec-945b-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "SANGGORO"
+    type: trojan
+    server: id-sanggoro.bypass.id # or 1.2.3.4
+    port: 443
+    password: 2868e400-6f05-11ec-89c5-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "BERKAH"
+    type: trojan
+    server: id-berkah.bypass.id # or 1.2.3.4
+    port: 443
+    password: 16953900-6f05-11ec-a8d4-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true

@@ -1,0 +1,49 @@
+proxies:
+  - name: "CONTABO 1"
+    type: trojan
+    server: trojan-contabo1.bypass.id # or 1.2.3.4
+    port: 443
+    password: 251a2ed0-6f06-11ec-808d-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "HE 2"
+    type: trojan
+    server: sg-trojan.serverip.xyz # or 1.2.3.4
+    port: 443
+    password: 10c03570-6f06-11ec-ada9-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "ARGON"
+    type: trojan
+    server: indo-3-trojan.serverip.xyz # or 1.2.3.4
+    port: 443
+    password: 65333f70-6f06-11ec-b2d5-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "UNINET 1"
+    type: trojan
+    server: id-awan.bypass.id # or 1.2.3.4
+    port: 443
+    password: 74eac5c0-6f06-11ec-b44b-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "UNINET 2"
+    type: trojan
+    server: id-uninet.bypass.id # or 1.2.3.4
+    port: 443
+    password: 7fa9e2a0-6f06-11ec-a217-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
+  - name: "KREATIF"
+    type: trojan
+    server: id-ikd.bypass.id # or 1.2.3.4
+    port: 443
+    password: 59f27d00-6f06-11ec-932d-1577c1651679
+    udp: true
+    sni: v27.tiktokcdn.com
+    skip-cert-verify: true
